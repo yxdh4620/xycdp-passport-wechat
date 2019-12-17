@@ -1,0 +1,33 @@
+{
+  "name": "xycdp-passport-wechat",
+  "version": "2.0.5",
+  "main": "lib/index.js",
+  "description": "passport strategy for authenticating with wechat",
+  "bugs": "https://github.com/yxdh4620/xycdp-passport-wechat/issues",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yxdh4620/xycdp-passport-wechat"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "passport",
+    "wechat",
+    "weixin"
+  ],
+  "devDependencies": {
+    "eslint": "^1.4.1"
+  },
+  "dependencies": {
+    "debug": "latest",
+    "passport": "^0.3.0",
+    "passport-strategy": "^1.0.0",
+    "wechat-oauth": "^1.0.1",
+    "xtend": "^4.0.0"
+  }
+}
